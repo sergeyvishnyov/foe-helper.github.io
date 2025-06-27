@@ -1,18 +1,103 @@
 <!DOCTYPE html>
-<html>
-<title>FoE Helper Support</title>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FoE Helper – Your Forge of Empires Assistant</title>
+  <link rel="icon" href="logo.png" />
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(to right, #2d2f37, #1c1e25);
+      color: white;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    p.description {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #0070f3;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #0059c1;
+    }
+    .features {
+      margin-top: 60px;
+      text-align: left;
+    }
+    .features h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    .features ul {
+      list-style: none;
+      padding: 0;
+    }
+    .features li {
+      margin-bottom: 10px;
+      padding-left: 1.2em;
+      position: relative;
+    }
+    .features li::before {
+      content: "✔";
+      color: #28d17c;
+      position: absolute;
+      left: 0;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
-    <center>
-        <h1>FoE Helper Support</h1>
-        <div>
-	        <img src="logo.png" alt="FoE Helper">
-        </div>
-        <br>
-        <div>
-            <a href="mailto:app.foe.helper@gmail.com?subject=FoE Helper Support">Send us a message</a>
-        </div>
-    </center>
+  <div class="container">
+    <img src="logo.png" alt="FoE Helper logo" class="logo" />
+    <h1>FoE Helper</h1>
+    <p class="description">The ultimate tool for Forge of Empires players. Track, plan, and dominate your world!</p>
+    <a href="https://apps.apple.com/app/id6446809862" class="btn">Download on the App Store</a>
+
+    <div class="features">
+      <h2>Key Features</h2>
+      <ul>
+        <li>Track and optimize Great Buildings (GB).</li>
+        <li>Calculate safe spots and rewards.</li>
+        <li>Support for all servers and worlds.</li>
+        <li>View player and guild stats in detail.</li>
+        <li>Generate share messages for fast coordination.</li>
+        <li>Supports 22+ languages.</li>
+      </ul>
+    </div>
+
+    <footer>
+      Need help? <a href="mailto:app.foe.helper@gmail.com" style="color: #0070f3;">Contact us</a><br/>
+      &copy; 2025 FoE Helper. All rights reserved.
+    </footer>
+  </div>
 </body>
 </html>
